@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d0d3d4;
+  font-family: "Calibri";
+  color: #17202a;
+  background-image: url("../img/background.webp");
+}
+
+.container {
+  width: 890px;
+  background-color: #fdfefe;
+  margin: auto;
+  border: 1px solid rgb(23, 32, 42, 0.5);
+  border-bottom: none;
+}
+
+/* HEADER */
+
+.header {
+  padding: 25px;
+}
+
+.header h1 {
+  border: 3px solid #17202a;
+  width: 135px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header h1:hover {
+  border-radius: 0;
+}
+
+.header ul li {
+  display: inline-block;
+  margin: 15px 10px 0 0;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #1b4f72;
+  padding: 5px;
+  transition: all 0.2s;
+}
+
+.header ul li a:hover {
+  background-color: #17202a;
+  color: #fdfefe;
+  border-radius: 5px;
+}
+
+/* HERO IMAGE */
+
+.image {
+  height: 300px;
+  background-image: url("../img/image.jpg");
+  background-size: cover;
+  background-position: 0 -30px;
+  border-bottom: 3px solid #154360;
+  border-top: 3px solid #a9cce3;
+  transition: all 0.3s;
+}
+
+.image:hover {
+  filter: contrast(1.2);
+}
+
+/* TITLE CONTENT */
+
+.title {
+  padding: 25px;
+}
+
+.title p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.title p a {
+  text-decoration: none;
+  color: #1b4f72;
+}
+
+/* TEXT CONTENT */
+
+.content {
+  padding: 0 30px;
+}
+
+.content p {
+  text-align: justify;
+  text-indent: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 15px;
+  margin-top: 50px;
+  background-color: #17202a;
+}
+
+.footer footer {
+  color: #fdfefe;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  opacity: 90%;
+}
